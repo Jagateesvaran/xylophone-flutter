@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
 import 'package:audioplayers/audio_cache.dart'; // player from local asstes folder
 
 void main() => runApp(XylophoneApp());
 
+// ignore: non_constant_identifier_names
 void PlayAudio(int i) {
   final player = AudioCache();
   player.play('note$i.wav');
